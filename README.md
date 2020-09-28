@@ -52,12 +52,7 @@
 
 ## 截图
 
-<table>
-  <tr>
-    <td bgcolor=#1e1e1e>
-      <img src="https://user-images.githubusercontent.com/66936909/94420486-ce322300-01b6-11eb-84af-fd1fdd81d565.png">
-      <img src="https://user-images.githubusercontent.com/66936909/94420774-37199b00-01b7-11eb-9d4c-8e4753537067.png">
-      <img src="https://user-images.githubusercontent.com/66936909/94421786-a80d8280-01b8-11eb-8b03-4a5dceefcd4d.png">
-    </td>
-  </tr>
-</table>
+![](https://user-images.githubusercontent.com/66936909/94420486-ce322300-01b6-11eb-84af-fd1fdd81d565.png)
+![](https://user-images.githubusercontent.com/66936909/94420774-37199b00-01b7-11eb-9d4c-8e4753537067.png)
+![]()
+![](https://user-images.githubusercontent.com/66936909/94421786-a80d8280-01b8-11eb-8b03-4a5dceefcd4d.png)
