@@ -1,0 +1,37 @@
+// 扫码枪版
+@import '../../assets/styles/mixin.less';
+
+#scan-page {
+  .inner-container {
+    &:extend(.flex-column-center);
+  }
+  .scan-page-with-scanner {
+    width: 298px;
+    height: 221px;
+    background: url('../../assets/imgs/scanner.svg') no-repeat left top / 100%
+      auto;
+    background-clip: border-box;
+    font-size: 40px;
+    color: #24af41;
+    padding: 171px 1.9em 0 14px;
+    text-align: left;
+    line-height: 1em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .scan-tip {
+    line-height: 1em;
+    padding-top: 51px;
+    color: @primary-color;
+    font-size: 24px;
+    text-align: center;
+  }
+  .hidden-input {
+    position: fixed;
+    bottom: 0;
+    width: 1px;
+    // visibility: hidden; // 事件不触发
+    opacity: 0;
+  }
+}

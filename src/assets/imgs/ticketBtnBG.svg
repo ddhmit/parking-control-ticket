@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485.99" height="166.159" viewBox="0 0 485.99 166.159">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #e47a23;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+        stroke-dasharray: 4 8;
+        opacity: 0.161;
+      }
+
+      .cls-6 {
+        filter: url(#椭圆_1_拷贝_23-2);
+      }
+
+      .cls-7 {
+        filter: url(#圆角矩形_1_拷贝_2);
+      }
+
+      .cls-8 {
+        filter: url(#椭圆_1_拷贝_23);
+      }
+    </style>
+    <filter id="椭圆_1_拷贝_23" x="23.1" y="22.285" width="439.791" height="143.875" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="圆角矩形_1_拷贝_2" x="0" y="0" width="485.99" height="70.11" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-2"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fd9541"/>
+      <stop offset="1" stop-color="#ffbd88"/>
+    </linearGradient>
+    <filter id="椭圆_1_拷贝_23-2" x="23.1" y="22.285" width="439.791" height="143.875" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <g class="cls-8" transform="matrix(1, 0, 0, 1, 0, 0)">
+        <path id="椭圆_1_拷贝_23-3" data-name="椭圆 1 拷贝 23" class="cls-1" d="M1167.511,569.159h-4.62a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.081a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.081a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0H947.3a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0H893.4a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0H839.5a3.85,3.85,0,0,0-7.7,0h-3.081a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.081a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0H785.6a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-4.62V479.253a10.758,10.758,0,1,0,0-21.516v-8.452h415.791v8.452a10.758,10.758,0,1,0,0,21.516v89.905Z"/>
+      </g>
+    </clipPath>
+  </defs>
+  <g id="组_1" data-name="组 1" transform="translate(-716.62 -419)">
+    <g class="cls-7" transform="matrix(1, 0, 0, 1, 716.62, 419)">
+      <rect id="圆角矩形_1_拷贝_2-2" data-name="圆角矩形 1 拷贝 2" class="cls-2" width="461.99" height="46.11" rx="23.05" transform="translate(12 8)"/>
+    </g>
+    <path id="圆角矩形_1_拷贝" data-name="圆角矩形 1 拷贝" class="cls-3" d="M1167.56,473.11H751.67a23.05,23.05,0,0,1-23.05-23.05v-.01A23.05,23.05,0,0,1,751.67,427h415.89a23.051,23.051,0,0,1,23.05,23.051v.01a23.051,23.051,0,0,1-23.05,23.05ZM751.7,438.53a11.525,11.525,0,1,0,0,23.05h415.839a11.525,11.525,0,1,0,0-23.05Z"/>
+    <g id="椭圆_1_拷贝_23-4" data-name="椭圆 1 拷贝 23">
+      <g class="cls-6" transform="matrix(1, 0, 0, 1, 716.62, 419)">
+        <path id="椭圆_1_拷贝_23-5" data-name="椭圆 1 拷贝 23" class="cls-1" d="M1167.511,569.159h-4.62a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.081a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.081a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0H947.3a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0H893.4a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0H839.5a3.85,3.85,0,0,0-7.7,0h-3.081a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.081a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0H785.6a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-3.08a3.85,3.85,0,0,0-7.7,0h-4.62V479.253a10.758,10.758,0,1,0,0-21.516v-8.452h415.791v8.452a10.758,10.758,0,1,0,0,21.516v89.905Z" transform="translate(-716.62 -419)"/>
+      </g>
+      <g id="Clip" class="cls-4">
+        <image id="矩形_1" data-name="矩形 1" width="477" height="41" transform="translate(721 427)" xlink:href="data:image/png;base64,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"/>
+      </g>
+    </g>
+    <line id="形状_1" data-name="形状 1" class="cls-5" x2="392.69" transform="translate(765 468.49)"/>
+  </g>
+</svg>

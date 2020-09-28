@@ -1,0 +1,130 @@
+@import '../../assets/styles/mixin.less';
+
+#portrait-page {
+  @h: 100vh;
+  .calWithH(@size) {
+    @result: calc(@h * (@size / 768));
+  }
+  &:extend(.flex-row-center);
+  justify-content: flex-start;
+  width: 100vw;
+  height: @h;
+  background: #fff;
+  position: relative;
+  .test-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+  .shot-area {
+    &:extend(.flex-column-center);
+    justify-content: flex-start;
+    width: 56.25%;
+    height: 100%;
+    background: @primary-color url('../../assets/imgs/ticketBG@2x.png')
+      no-repeat;
+    background-size: 100%;
+    .tip-line {
+      margin: 0;
+      padding-top: .calWithH(105) [ @result];
+      padding-bottom: .calWithH(48) [ @result];
+      font-size: .calWithH(28) [ @result];
+      line-height: 1em;
+      color: #fff;
+      text-align: center;
+    }
+    .portrait-block {
+      @blockSize: @h * (406 / 768);
+      @parendBorderW: @h * (2 / 768);
+      @borderC: white;
+      @borderW: @h * (12/ 768);
+      @innerBorderW: @h * (2 / 768);
+      width: @blockSize;
+      height: @blockSize;
+      padding: @borderW / 2;
+      // 角落边框
+      .square-corner-border(@borderC: white, @borderW: @borderW);
+      .portrait-container {
+        @containerSize: @blockSize - @borderW;
+        background: #999;
+        width: @containerSize;
+        height: @containerSize;
+        border: @innerBorderW solid @borderC;
+        .video {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  .shot-button-area {
+    flex: 1;
+    height: 100%;
+    &:extend(.flex-column-center);
+    justify-content: flex-start;
+    &-header {
+      &:extend(.flex-column-center);
+      padding-top: .calWithH(48) [ @result];
+      padding-bottom: .calWithH(140) [ @result];
+      .img {
+        width: .calWithH(88) [ @result];
+        height: auto;
+      }
+      .title {
+        color: @primary-color;
+        margin: 0;
+        font-weight: 900;
+        text-align: center;
+        font-size: .calWithH(24) [ @result];
+        padding-top: .calWithH(25) [ @result];
+      }
+    }
+    &-button {
+      margin: 0;
+      padding: .calWithH(50) [ @result] .calWithH(36) [ @result] .calWithH(12) [
+        @result];
+      width: .calWithH(486) [ @result];
+      height: .calWithH(166) [ @result];
+      background: url('../../assets/imgs/ticketBtnBG.svg') no-repeat;
+      background-size: 100%;
+      color: @primary-color;
+      font-size: .calWithH(32) [ @result];
+      text-align: center;
+      border: none;
+      box-shadow: none;
+      &:active {
+        box-shadow: none;
+        border: none;
+        color: lighten(@primary-color, 20%);
+      }
+      &::after {
+        display: none;
+      }
+    }
+  }
+  .footer {
+    &:extend(.flex-column-center);
+    justify-content: flex-start;
+    width: 100%;
+    padding-top: .calWithH(135) [ @result];
+    &-tip-line {
+      margin: 0;
+      padding-left: .calWithH(36) [ @result];
+      font-size: .calWithH(16) [ @result];
+      color: @primary-color;
+      text-align: center;
+      background: url('../../assets/imgs/tipIcon.svg') no-repeat;
+      background-size: auto 100%;
+    }
+    .content {
+      color: #afafaf;
+      font-size: .calWithH(16) [ @result];
+      text-align: center;
+      padding: .calWithH(36) [ @result] 0 .calWithH(40) [ @result];
+      margin: 0;
+      line-height: 1em;
+    }
+  }
+}

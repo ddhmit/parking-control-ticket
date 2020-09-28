@@ -1,0 +1,48 @@
+@import '../../assets/styles/mixin.less';
+
+.home-bg {
+  @containerH: 81vh;
+  @headerH: calc((100vh - @containerH) / 2);
+  @main-color: white;
+  &:extend(.flex-column-center);
+  width: 100vw;
+  height: 100vh;
+  background: @primary-color;
+  .home-header,
+  .home-footer {
+    flex: 1;
+    width: 100%;
+    height: @headerH;
+    &:extend(.flex-row-center);
+    justify-content: flex-start;
+  }
+  .home-header {
+    .logo {
+      height: 77%;
+      margin: 0 20px;
+    }
+    .title {
+      margin: 0;
+      line-height: 1em;
+      font-size: calc(@headerH * 0.5);
+      color: @main-color;
+      font-weight: 900;
+    }
+  }
+  .inner-container {
+    height: @containerH;
+    width: 100vw;
+    background: @main-color;
+  }
+  .home-footer {
+    &:extend(.flex-row-center);
+    justify-content: space-between;
+    padding: 0 48px;
+    .phone-num,
+    .time {
+      font-size: calc(@headerH * 0.333);
+      color: @main-color;
+      line-height: 1em;
+    }
+  }
+}

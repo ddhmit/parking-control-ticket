@@ -1,0 +1,34 @@
+@import '../../assets/styles/mixin.less';
+
+.back-home-btn {
+  position: fixed;
+  top: 20px;
+  right: 0;
+  width: 140px;
+  height: 40px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  &:extend(.flex-row-center);
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 0;
+  padding-left: 0.8em;
+  border: none;
+  svg {
+    width: 20%;
+    height: auto;
+    fill: currentColor;
+    path {
+      fill: inherit;
+    }
+  }
+  span {
+    font-size: inherit;
+    line-height: 1em;
+    padding-right: 1em;
+  }
+  &--light {
+    background: white;
+    color: @primary-color;
+  }
+}

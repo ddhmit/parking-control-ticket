@@ -1,0 +1,26 @@
+@import '../../assets/styles/mixin.less';
+#ticket-page {
+  &:extend(.flex-row-center);
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  .ticket-page-countdown {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    .ant-badge-count {
+      @scale: 1.8em;
+      font-size: 20px;
+      width: @scale;
+      height: @scale;
+      line-height: @scale;
+      border-radius: @scale;
+      .ant-scroll-number-only {
+        height: 100%;
+        &-unit {
+          height: 100%;
+        }
+      }
+    }
+  }
+}

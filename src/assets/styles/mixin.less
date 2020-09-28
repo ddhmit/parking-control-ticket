@@ -1,0 +1,43 @@
+.square-corner-border(@borderC: white, @borderW: 12px, @offset: 0, @borderH: 20%) {
+  position: relative;
+  &::after {
+    content: '';
+    z-index: 999;
+    top: @offset;
+    left: @offset;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, @borderC, @borderC),
+      // 左上
+        linear-gradient(to right, @borderC, @borderC),
+      // 右上
+        linear-gradient(to right, @borderC, @borderC),
+      // 右下
+        linear-gradient(to right, @borderC, @borderC),
+      // 左下
+        linear-gradient(to bottom, @borderC, @borderC),
+      linear-gradient(to bottom, @borderC, @borderC),
+      linear-gradient(to bottom, @borderC, @borderC),
+      linear-gradient(to bottom, @borderC, @borderC);
+    background-size: @borderH @borderW, @borderH @borderW, @borderH @borderW,
+      @borderH @borderW, @borderW @borderH, @borderW @borderH, @borderW @borderH,
+      @borderW @borderH;
+    background-position: left top, right top, right bottom, left bottom,
+      left top, right top, right bottom, left bottom;
+    overflow: visible;
+  }
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row-center {
+  &:extend(.flex-column-center);
+  flex-direction: row;
+}

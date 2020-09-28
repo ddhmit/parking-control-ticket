@@ -1,0 +1,42 @@
+@import '../../../assets/styles/mixin.less';
+
+#root {
+  .home-button {
+    &:extend(.flex-row-center);
+    width: 360px;
+    height: 200px;
+
+    padding: 0;
+    border: none;
+    border-radius: 20px;
+
+    background: #00c4aa no-repeat;
+    background-clip: border-box;
+    background-size: 68px auto, 152px auto;
+    background-position: left 32px top 24px, right 0 bottom 0;
+    > span {
+      font-size: 48px;
+      color: white;
+      display: inline-block;
+      width: 100%;
+      line-height: 1em;
+      height: 100%;
+      padding: 106px 40px 0 224px;
+      letter-spacing: -0.1em;
+    }
+    &:first-of-type {
+      margin-right: 7.81%;
+    }
+
+    &-in {
+      background-image: url('../../../assets/imgs/inIcon.svg'),
+        url('../../../assets/imgs/inCar.svg');
+    }
+
+    &-out {
+      background-color: #9c5cf9;
+      background-image: url('../../../assets/imgs/outIcon.svg'),
+        url('../../../assets/imgs/outCar.svg');
+    }
+  }
+}
